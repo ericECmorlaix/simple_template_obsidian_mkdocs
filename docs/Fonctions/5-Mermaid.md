@@ -11,4 +11,5 @@ graph LR
   B ---->|No| E[Yay!];
 ```
 
-> Pensez à actualiser la page pour obtenir l'affichage correct du diagramme
+>[!info]
+> Pensez à actualiser la page du site MkDocs pour obtenir l'affichage correct du diagramme...

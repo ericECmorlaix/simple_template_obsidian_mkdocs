@@ -2,10 +2,13 @@
 
 ## Quelques fonctionnalités
 
-- [[Texte]]
-- [[Listes]]
-- [[LaTeX]]
-- [[Mermaid]]
+- [[0-Titres|Les titres]]
+- [[1-Texte|Le texte]]
+- [[2-Listes|Les listes]]
+- [[3-Admonitions|Les admonitions]]
+- [[4-LaTeX|LaTeX]]
+- [[5-Mermaid|Mermaid]]
+ 
 
 ## Autres
 

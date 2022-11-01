@@ -1,9 +1,11 @@
-> Contrairement à MkDocs, avec Obsidian on n'est pas obligé de sauter une ligne pour commencer une liste. L'extension [mdx-breakless-lists](https://pypi.org/project/mdx-breakless-lists/) installée ici dans le `mkdocs.yml` élude ce problème en ajoutant systématiquement une ligne dans le code traduit pour MkDocs par rapport à celui venant d'Obsidian.
+# Les listes
+>[!tip] Contrairement à MkDocs, avec Obsidian on n'est pas obligé de sauter une ligne pour commencer une liste.
+>  L'extension [mdx-breakless-lists](https://pypi.org/project/mdx-breakless-lists/) installée ici dans le `mkdocs.yml` et le `ci.yml` élude cette différence en ajoutant systématiquement une ligne dans le code traduit pour MkDocs par rapport à celui venant d'Obsidian.
 
 ## Liste à puces
 
 ```md
-Une liste uniformément pucée :
+Une liste uniformément "pucée" :
 * Un élément de ma liste ;
 - Un autre élément de ma liste ;
     * Un élément de ma sous-liste ;
@@ -11,7 +13,7 @@ Une liste uniformément pucée :
 + Encore un autre élément de ma liste.
 ```
 
-Une liste uniformément pucée :
+Une liste uniformément "pucée" :
 * Un élément de ma liste ;
 * Un autre élément de ma liste ;
 - Encore un autre élément de ma liste ;
@@ -19,6 +21,7 @@ Une liste uniformément pucée :
     - Un autre élément de ma sous-liste ;
 + Encore un autre élément de ma liste.
 
+>[!failure] Remarque
 > Contrairement à Obsidian, dans MkDocs les changements de types de puces ne provoquent pas de saut de ligne supplémentaire.
 
 ## Liste ordonnées
@@ -41,7 +44,8 @@ Une liste bien ordonnée :
     72. Le second élément de ma sous-liste ;
 1024. Le troisième élément de ma liste.
 
-> Contrairement à Obsidian, dans MkDocs démarrer avec un `4.` ne débute pas la numérotation à 4. même si on fait un saut de ligne avant de commencer la liste.
+>[!success] Préciser le début de la numérotation
+>  L'extension [sane_lists](https://python-markdown.github.io/extensions/sane_lists/) installée ici dans le `mkdocs.yml` permet à MkDocs d'avoir le même comportement qu'Obsidian concernant les listes.
 
 ## Liste de taches
 
@@ -59,4 +63,6 @@ Une liste bien ordonnée :
     - [ ] une autre sous tâche de ma todo liste ;
 - [ ] Encore une autre tâche de ma todo liste.
 
+>[!failure] Remarque
 > Contrairement à Obsidian, dans MkDocs cocher le bouton d'une tâche ne barre pas le texte de cet item et cocher le bouton d'une tâche supérieure ne raye pas toutes les tâches de sa sous-liste sans exception.
+
