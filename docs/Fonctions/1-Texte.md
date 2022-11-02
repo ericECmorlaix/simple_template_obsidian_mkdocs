@@ -2,7 +2,7 @@
 
 Par défaut, contrairement à MkDocs, le mode aperçu d'Obsidian prend en compte chaque retour à la ligne, ce qui, somme toute, est un comportement assez naturel. Cependant, comme MkDocs, il remplace les espaces laissés en trop par une seule espace :
 >[!example]+ Par exemple, le code MarkDown ci-dessous :
->```md
+>```markdown
 >Ce texte                s'affiche           avec des retours à la ligne,
 >dans un seul            et                  même paragraphe,
 >mais les espaces      laissés en trop         sont supprimés...

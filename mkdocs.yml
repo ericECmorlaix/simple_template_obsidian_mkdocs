@@ -135,8 +135,8 @@ extra:
     #   link: mailto:eric.madec@ecmorlaix.fr
     #   name: Pour toute question, suggestion ou commentaire, écrire à l'auteur
     - icon: fontawesome/brands/github
-      link: https://github.com/ericECmorlaix/simple_template_obsidian_mkdocs
-      name: dépôt github
+      link: https://github.com/ericECmorlaix/
+      name: Compte GitHub
     # - icon: fontawesome/solid/school
     #   link: https://www.ecmorlaix.fr/nos-etablissements/lycee-notre-dame-du-mur/
     #   name: Lycée Notre Dame du Mur 

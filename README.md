@@ -1,6 +1,10 @@
 # Simple Obsidian MkDocs
 
-Un simple modèle de dépôt GitHub pour publier des notes d'Obsidian via MkDocs avec le thème Material telles que à cette adresse : <https://ericecmorlaix.github.io/simple_template_obsidian_mkdocs/>
+Un simple modèle de dépôt GitHub pour publier des notes d'Obsidian via MkDocs avec le thème Material.
+
+Le site ainsi produit est visible à l'adresse : <https://ericecmorlaix.github.io/simple_template_obsidian_mkdocs/>. Il montre quelques solutions permettant plus ou moins la transition de la syntaxe d'Obsidian vers celle de MkDocs.
+
+Ce site est adossé à un [tutoriel (en construction)](https://ericecmorlaix.github.io/adn-Tutoriel_Obsidian/) qui présente la prise en main et quelques fonctionnalités d'Obisidian.
 
 Ce template est basé sur <https://github.com/jobindjohn/obsidian-publish-mkdocs> et s'inspire également de <https://github.com/ObsidianPublisher/obsidian-mkdocs-publisher-template>
 
@@ -24,7 +28,7 @@ git clone url_du_depot`
 
 8. Si cela ne fonctionne vraiment pas pour vous, ouvrez une [issue](https://github.com/ericECmorlaix/simple_template_obsidian_mkdocs/issues/new/choose) et expliquez moi votre problème...
 
-## Configuration du site
+## Configuration de votre site
 
 Les fichiers de configuration du site `mkdocs.yml` et `ci.yml` sont écrits en [YAML](https://fr.wikipedia.org/wiki/YAML), un langage avec une syntaxe la plus lisible possible par des humains pour représenter des données.
 
@@ -33,10 +37,23 @@ Obsidian ne permet pas d'éditer ces fichiers. Il vous faudra les ouvrir dans vo
 - Sauf à vouloir ajouter de nouvelles fonctionnalités, le fichier [`CI.yml`](https://ericecmorlaix.github.io/adn-Tutoriel_site_web/Yaml/#le-fichier-ciyml) peut rester inchangé ;
 - En revanche, il est nécessaire de modifier le fichier `mkdocs.yml` en s'aidant des explications laissées en commentaires ou encore de celles ce [tutoriel de configuration d'un site web avec MkDocs](https://ericecmorlaix.github.io/adn-Tutoriel_site_web/Yaml/#le-fichier-mkdocsyml)
 
+## Les futures pages de votre site
+
+Le texte en MarkDown de la page `index.md` du dossier `/docs` devient la page d'accueil en HTML de votre site.
+
+Les dossiers présents dans `/docs` apparaissent comme sections principales de la barre de navigation. De même pour le titre de niveau 1 `# Accueil` écrit au début du fichier `index.md`.
+
+Chaque note, `fichier.md` écrit en MarkDown, devient une nouvelle page du site dans leur section respective. Le noms de ces fichiers sont visible dans la barre d'URL. Les titres et sous-titres de la table des matières apparaissent dans des sous-sections d'un menu secondaire.
+
+> En l'absence de titre de niveau 1 au début d'une note, c'est le nom du fichier qui apparaitra en tête de la sous-section.
+
+Il est donc préférable dans Obsidian d'attribuer aux dossiers et fichiers des noms significatifs, sans caractère accentué ni espace et, de même que pour les titres et sous-titres, le mieux est de les choisir courts. 
+
+> Ce nommage automatique peut-être modifié en définissant manuellement la rubrique `nav` dans le fichier `mkdocs.yml`, ce qui devient cependant vite fastidieux...
 
 ## Autres projets à regarder
 
-- <https://github.com/ObsidianPublisher/obsidian-mkdocs-publisher-template>
+- <https://github.com/ObsidianPublisher/obsidian-mkdocs-publisher-template> La solution de [Lisandra Simonetti](https://github.com/Lisandra-dev), beaucoup plus évoluée et associée à un plugin d'Obsidian.
 - <https://github.com/mr-karan/notes>
 - <https://github.com/Jackiexiao/foam-mkdocs-template>
 - <https://github.com/foambubble/foam-template>
