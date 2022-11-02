@@ -11,7 +11,7 @@ Ce template est basé sur <https://github.com/jobindjohn/obsidian-publish-mkdocs
 ## Mise en place
 
 1. **Créer** un nouveau dépôt GitHub à partir de ce modèle en cliquant sur le bouton vert ci-dessus ou cliquer sur [ce lien](https://github.com/ericECmorlaix/simple_template_obsidian_mkdocs/generate) ;
-![[Use_this_template.png]]
+![Use_this_template.png](Use_this_template.png)
 2. **Donner** un nom à votre dépôt public et **ajouter** une description. Par défaut vos notes seront publiées à l'adresse <https://votre-pseudo-github.github.io/nom-depot/> ;
  > ne copier que la branche `main` du dépôt template ;
 3. **Cloner** le dépôt que vous venez de générer dans votre dossier/coffre d'Obsidian.  Soit avec le plugin Obsidian Git installé et activé dans votre coffre, ou directement en ligne de commande : 
