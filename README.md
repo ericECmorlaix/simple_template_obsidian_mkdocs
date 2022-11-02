@@ -55,6 +55,7 @@ Il est donc préférable dans Obsidian d'attribuer aux dossiers et fichiers des 
 
 - <https://github.com/ObsidianPublisher/obsidian-mkdocs-publisher-template> La solution de [Lisandra Simonetti](https://github.com/Lisandra-dev), beaucoup plus évoluée et associée à un plugin d'Obsidian.
 - <https://github.com/mr-karan/notes>
+- <https://github.com/jimbrig/obsidian_published>
 - <https://github.com/Jackiexiao/foam-mkdocs-template>
 - <https://github.com/foambubble/foam-template>
 - <https://sarthaknarayan.tech/projects/obsidian-publish-github-action/>

@@ -31,10 +31,11 @@ theme:
     # custom_dir: overrides #  
     font: false  # RGPD ; pas de fonte Google
     language: fr # français
-    # logo: images/gem.svg # LogoIO.png
+    # logo: images/gem.svg # image qui apparait dans l'en tête à gauche du titre de la page
+    # et qui est support du lien qui renvoie à la racine du site depuis toutes les pages
     favicon: images/obsidian-logo.png # LogoIO-Obsidian.png
     icon:
-      logo: fontawesome/solid/gem # image qui apparait dans l'en tête à gauche du titre de la page
+      logo: fontawesome/solid/gem # icone qui apparait dans l'en tête à gauche du titre de la page
       # et qui est support du lien qui renvoie à la racine du site depuis toutes les pages
       repo: fontawesome/brands/github-alt # modifie l'icône du lien vers le dépot du projet de l'en tête
     
