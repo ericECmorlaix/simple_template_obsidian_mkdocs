@@ -8,6 +8,7 @@
 - [[3-Admonitions|Les admonitions]]
 - [[4-LaTeX|LaTeX]]
 - [[5-Mermaid|Mermaid]]
+- [[6-Trucs|Autres trucs]]
  
 
 ## Autres
