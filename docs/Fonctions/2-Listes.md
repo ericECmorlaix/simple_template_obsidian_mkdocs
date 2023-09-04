@@ -6,22 +6,25 @@
 
 >[!example]+ Par exemple, le code MarkDown ci-dessous :
 >```markdown
->Une liste uniformément "pucée" :
->* Un élément de ma liste ;
->- Un autre élément de ma liste ;
->    * Un élément de ma sous-liste ;
->    * Un autre élément de ma sous-liste ;
->+ Encore un autre élément de ma liste.
+>* Un élement de liste ;
+>Une précision concernant cet élément...
+>- Un autre élément de liste ;
+>- Un second élément de cette liste ;
+>    * Un élément de sous-liste ;
+>    * Un autre élément de sous-liste ;
+>	    * Un élément de sous-sous-liste ;
+>+ Encore un autre élément de liste.
 >```
 
 >[!example]+ produira l'affichage suivant :
->Une liste uniformément "pucée" :
-> * Un élément de ma liste ;
-> * Un autre élément de ma liste ;
-> - Encore un autre élément de ma liste ;
->     * Un élément de ma sous-liste ;
->     - Un autre élément de ma sous-liste ;
-> + Encore un autre élément de ma liste.
+>* Un élement de liste ;
+>Une précision concernant cet élément...
+>- Un autre élément de liste ;
+>- Un second élément de cette liste ;
+>    * Un élément de sous-liste ;
+>    * Un autre élément de sous-liste ;
+>	    * Un élément de sous-sous-liste ;
+>+ Encore un autre élément de liste.
 
 >[!failure] Remarque
 > Contrairement à Obsidian, dans MkDocs les changements de types de puces ne provoquent pas de saut de ligne supplémentaire.
@@ -30,23 +33,22 @@
 
 >[!example]+ Par exemple, le code MarkDown ci-dessous :
 >```markdown
->Une liste bien ordonnée :
->
->4. Le premier élément de ma liste ;  
->1. Le second élément de ma liste ;
+>4. Le quatrième élément de ma liste ;  
+>Une précision concernant cet élément...
+>1. Le cinquième élément de ma liste ;
 >    1. Le premier élément de ma sous-liste ;
 >    72. Le second élément de ma sous-liste ;
->1024. Le troisième élément de ma liste.
+>1024. Le sixième élément de ma liste.
 >```
 
 >[!example]+ produira l'affichage suivant :
->Une liste bien ordonnée :
 >
-> 4. Le premier élément de ma liste ;  
-> 1. Le second élément de ma liste ;
->     1. Le premier élément de ma sous-liste ;
->     72. Le second élément de ma sous-liste ;
-> 1024. Le troisième élément de ma liste.
+>4. Le quatrième élément de ma liste ;  
+>Une précision concernant cet élément...
+>1. Le cinquième élément de ma liste ;
+>    1. Le premier élément de ma sous-liste ;
+>    72. Le second élément de ma sous-liste ;
+>1024. Le sixième élément de ma liste.
 
 >[!success] Préciser le début de la numérotation
 >  L'extension [sane_lists](https://python-markdown.github.io/extensions/sane_lists/) installée ici dans le `mkdocs.yml` permet à MkDocs d'avoir le même comportement qu'Obsidian concernant les listes.
@@ -71,4 +73,9 @@
 
 >[!failure] Remarque
 > Contrairement à Obsidian, dans MkDocs cocher le bouton d'une tâche ne barre pas le texte de cet item et cocher le bouton d'une tâche supérieure ne raye pas toutes les tâches de sa sous-liste sans exception.
+> De plus, d'autres marqueur comme `[w]` ne sont pas supportés.
+
+
+
+
 
